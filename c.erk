@@ -1,7 +1,7 @@
-parnames = {1: 'f', 2: 'k9cat'}
+parnames = {1: 'f', 2: 'kf',3:'k1cat'}
 unames = {1: 'ppRaf', 2: 'ppMek', 3: 'ppERK'}
 NDIM=   3, IPS =   1, IRS =   0, ILP =   0
-ICP =  ['f']
+ICP =  ['f','kf','k1cat']
 NTST=  35, NCOL=   4, IAD =   3, ISP =   2, ISW = 1, IPLT= 0, NBC= 0, NINT= 0
 NMX=   50, NPR=  100, MXBF=  10, IID =   2, ITMX= 8, ITNW= 7, NWTN= 3, JAC= 0
 EPSL= 1e-07, EPSU = 1e-07, EPSS =0.0001

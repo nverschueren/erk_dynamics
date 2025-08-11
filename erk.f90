@@ -27,12 +27,14 @@
       Er=U(3)
 
       efe=PAR(1)
-      k9cat=PAR(2)
+      kf=PAR(2)
+      k1cat=PAR(3)
+      
 
       !par values
-      k1cat=1.0
+      !k1cat=1.0
       rasgtp=10.0
-      kf=1.0
+      !kf=1.0
       totraf=300.0
       totmek=300.0
       toterk=300.0
@@ -46,7 +48,7 @@
       k5cat=2.5
       v12max=5.0
       km12=20.0
-      !k9cat
+      k9cat=0.125
       km9=250.0
 
 
@@ -79,7 +81,8 @@
       DOUBLE PRECISION, INTENT(IN) :: T
 
        PAR(1)=1.0 !efe
-       PAR(2)= 0.125
+       PAR(2)= 0.125!kf
+       PAR(3)=1.0!k1cat
 
 
        U(1)=262.71057231
