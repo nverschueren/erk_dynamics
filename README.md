@@ -1,4 +1,4 @@
-# ERK dynamics  <!---  H1 header --->
+# ERK dynamics  <!-- H1 header -->
 
 This repository contains the different files to use the models for ERK dynamics.
 
