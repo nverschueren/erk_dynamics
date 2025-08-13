@@ -7,5 +7,13 @@ b=b+b1; relabel(b)
 #following the periodic
 c=run(a('HB2'),IPS=2,ICP=['f','PERIOD'],NMX=60,NPR=6)
 
+print('---------COMPUTATION COMPLE----------')
+print(' There are 3 branches')
+print('a: continuation in f')
+print('b: continuation in [f,kf] for the hopf point')
+print('c: continuation of periodic orbits from the HB with f>0 in a')
+
+
+
 
 
